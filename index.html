@@ -10,36 +10,82 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <script src="form.js"></script>
     <div class="container">
+        <span class="big-circle"></span>
+        <img src="images/background.png" class="square" alt=""/>
         <div class="form">
-            <div class="contact-info"></div>
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    If you're looking for high-quality designs for your project, please get in touch with me through the following media.
+                </p>
+                <div class="info">
+                    <div class="information">
+                        <img src="images/location.png" class="icon" alt="">
+                        <p>No 19, Kamil, Place, Matara.</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/email.png" class="icon" alt="">
+                        <p>yenulichamodya@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/phone.png" class="icon" alt="">
+                        <p>077-2341541</p>
+                    </div>
+                </div>
+                
+                <div class="social-media">
+                    <p>Connect with Us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <div class="contact-form">
                 <span class="circle one"></span>
                 <span class="circle two"></span>
-                <form action="index.html">
+
+                <form action="index.html" autocomplete="off">
                     <h3 class="title">Contact Us</h3>
                     <div class="input-container">
                         <input type="text" name="name" class="input">
                         <label for="">Username</label>
+                        <span>Username</span>
                     </div>
                     <div class="input-container">
-                        <input type="text" name="email" class="input">
+                        <input type="email" name="email" class="input">
                         <label for="">Email</label>
+                        <span>Email</span>
                     </div>
                     <div class="input-container">
                         <input type="tel" name="phone" class="input">
                         <label for="">Phone</label>
+                        <span>phone</span>
                     </div>
                     <div class="input-container textarea">
                         <textarea name="message" class="input"></textarea>
                         <label for="">Message</label>
+                        <span>Message</span>
                     </div>
                     <input type="submit" value="send" class="btn"/>
                 </form>
             </div>
         </div>
     </div>
+    <script src="form.js"></script>
 </body>
 </html>
