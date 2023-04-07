@@ -273,7 +273,7 @@ textarea.input{
     background: linear-gradient(to bottom, rgb(34, 131, 175), rgb(34, 131, 175));
     bottom: 50%;
     right: 50%;
-    transform: translate(-40%, 38%);
+    transform: translate(-50%, 20%);
 }
 
 .big-circle:after{
@@ -292,7 +292,7 @@ textarea.input{
     height: 400px;
     top: 50%;
     left: 70%;
-    transform: translate(180%, 1%);
+    transform: translate(10%, 5%);
     opacity: 0.15;
 }
 
@@ -321,8 +321,8 @@ textarea.input{
 
     .big-circle{
         bottom: 75%;
-        transform: scale(0.9) translate(-40%, 30%);
-        right: 50%;
+        transform: scale(0.9) translate(-40%, 20%);
+        right: 30%;
     }
     .text{
         margin: 1rem 0 1.5rem 0;
